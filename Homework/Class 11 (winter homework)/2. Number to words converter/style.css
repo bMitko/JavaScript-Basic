@@ -1,0 +1,59 @@
+*{
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#number{
+    width: 390px;
+    height: 250px;
+    resize: none;
+    border-color: grey;
+    border-style: solid; 
+    border-width: 2px;
+    border-radius: 5%;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#words{
+    width: 390px;
+    height: 250px;
+    resize: none;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5%;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#boxes{
+    display: flex;
+    justify-self:center;
+}
+
+#heading{
+    font-size: 40px;
+    font-weight: 800;
+    background-color: rgb(129, 206, 104);
+}
+span{
+    justify-self: center;
+    color: rgb(100, 100, 100);
+    align-self:center;
+    font-size: 40px;
+}
+
+p{
+    display: flex;
+    justify-self: center;
+    background-color: rgb(129, 206, 104);
+    color: white;
+}
+
+textarea{
+    font-weight: 500;
+    
+}

@@ -9,8 +9,8 @@ console.log("Connected");
 
 // Повлекување вредност од јаваскрипт!
 
-let numberOfRows = 5;
-let numberOfColumns = 4;
+// let numberOfRows = 5;
+// let numberOfColumns = 4;
 
 const button = document.getElementById("button");
 
@@ -45,6 +45,8 @@ button.addEventListener("click", function(e){
     e.preventDefault()
     dyTable.innerHTML += `<hr>`;
     dyTable.innerHTML += `<h3>○ Your dynamic table:</h3>`;
+    let numberOfRows = rowInput.value;
+    let numberOfColumns = columnInput.value;
     dynamicTable(numberOfRows, numberOfColumns);
     console.log(numberOfRows);
     console.log(numberOfColumns);

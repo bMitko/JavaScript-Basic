@@ -1,0 +1,96 @@
+*{
+    background-color: whitesmoke;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#calculator{
+width: 340px;
+height: 535px;
+justify-self: center;
+white-space: nowrap; 
+  overflow: hidden;
+  border: 3px solid black;
+  border-radius: 2%;
+}
+
+.button{
+    width: 80px;
+    height: 80px;
+    font-size: 27px;
+    border-radius: 5px;
+}
+
+.doublebutton{
+    width: 164px;
+    height: 80px;
+}
+
+.button .doublebutton{
+    font-weight: 700;
+}
+
+.rows{
+    height: 84px;
+}
+
+#display{
+    background-color: rgb(71, 122, 137);
+    color: white;
+    justify-items: flex-end;
+    height: 100px;
+}
+
+.operation{
+    background-color: rgb(71, 122, 137);
+}
+
+#calculation{
+    background-color: rgb(71, 122, 137);
+    color: white;
+    justify-items: flex-end;
+    height: 35px;
+    font-size: 19px;;
+}
+
+#result{
+    background-color: rgb(71, 122, 137);
+    color: white;
+    font-size: 37px;
+    justify-items: flex-end;
+    height: 45px;
+}
+
+#extraDisplay{
+    background-color: rgb(71, 122, 137);
+    color: white;
+    font-size: 13px;
+    justify-self: center;
+    height: 20px;
+    font-stretch:extra-condensed;
+    font-weight: 200;
+
+}
+
+#heading{
+    font-size: 40px;
+    font-weight: 800;
+    background-color: rgb(71, 122, 137);
+}
+
+p{
+    display: flex;
+    justify-self: center;
+    background-color: rgb(71, 122, 137);
+    color: white;
+}
+
+#firstRow,
+#secondRow,
+#thirdRow,
+#fourthRow,
+#fifthRow{
+    display: flex;
+    justify-content: space-around;
+}
+
+
